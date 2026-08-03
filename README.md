@@ -1,4 +1,27 @@
-## Hi there 👋
+# Ciao, sono Davide 👋
+
+Studente di Ingegneria Informatica interessato a sviluppo full-stack,
+sistemi, intelligenza artificiale e progettazione software.
+
+## 🚀 Progetti principali
+
+### ♟️ Boardverse
+Piattaforma full-stack per giocare a scacchi online, risolvere puzzle
+e interagire con altri giocatori.
+
+### 🪺 NEST
+Motore locale in Rust per organizzare e ricercare documenti e conoscenze.
+
+### ♜ ChessReal
+Scacchi sviluppati in Java con interfaccia grafica Swing.
+
+## 🧰 Tecnologie
+
+Rust · Java · TypeScript · React · Next.js · Supabase · PostgreSQL · Python
+
+## 🔨 Attualmente
+
+Sto sviluppando NEST e approfondendo Rust, architettura software e database.
 
 <!--
 **JakeKing0001/JakeKing0001** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
