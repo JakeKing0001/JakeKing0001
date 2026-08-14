@@ -1,39 +1,64 @@
-# Ciao, sono Davide 👋
+# Ciao, sono Davide
 
-Studente di Ingegneria Informatica interessato a sviluppo full-stack,
-sistemi, intelligenza artificiale e progettazione software.
+Sviluppatore full-stack e studente di Ingegneria Informatica. Progetto
+applicazioni web, API e database con attenzione a semplicità d’uso, sicurezza e
+manutenibilità.
 
-## 🚀 Progetti principali
+Sono disponibile per progetti freelance e collaborazioni su MVP, strumenti
+interni, dashboard e prodotti web su misura.
 
-### ♟️ Boardverse
-Piattaforma full-stack per giocare a scacchi online, risolvere puzzle
-e interagire con altri giocatori.
+## Cosa posso realizzare
 
-### 🪺 NEST
-Motore locale in Rust per organizzare e ricercare documenti e conoscenze.
+- Applicazioni full-stack con React, Next.js e TypeScript
+- API, autenticazione e flussi amministrativi
+- Database PostgreSQL e integrazioni Supabase
+- Prototipi tecnici trasformabili in prodotti verificabili
+- Pulizia, documentazione e messa in sicurezza di progetti esistenti
 
-### ♜ ChessReal
-Scacchi sviluppati in Java con interfaccia grafica Swing.
+## Progetti selezionati
 
-## 🧰 Tecnologie
+### [Boardverse](https://github.com/JakeKing0001/boardverse)
 
-Rust · Java · TypeScript · React · Next.js · Supabase · PostgreSQL · Python
+Piattaforma full-stack per scacchi online con autenticazione, partite, amici,
+messaggistica, statistiche e puzzle. Include migrazioni PostgreSQL con RLS, test
+unitari e smoke test browser.
 
-## 🔨 Attualmente
+`Next.js` · `TypeScript` · `Supabase` · `PostgreSQL` · `Vitest` · `Playwright`
 
-Sto sviluppando NEST e approfondendo Rust, architettura software e database.
+### [EasyBook](https://github.com/JakeKing0001/easybook-starter)
 
-<!--
-**JakeKing0001/JakeKing0001** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Starter per prenotazioni online con disponibilità, gestione servizi e area
+amministratore. Il repository documenta chiaramente i limiti prima di un uso in
+produzione e include una migrazione Auth/RLS testata localmente.
 
-Here are some ideas to get you started:
+`Next.js` · `React` · `Supabase Auth` · `PostgreSQL`
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### [ChessReal](https://github.com/JakeKing0001/ChessReal)
+
+Applicazione desktop di scacchi sviluppata in Java Swing, con gestione delle
+mosse e avversario Minimax sperimentale.
+
+`Java` · `Swing` · `OOP` · `Minimax`
+
+### [Portfolio Template](https://github.com/JakeKing0001/portfolio-template)
+
+Template responsive e personalizzabile per portfolio di studenti e sviluppatori
+junior, costruito con componenti riutilizzabili.
+
+`Next.js` · `TypeScript` · `Tailwind CSS`
+
+## Come lavoro
+
+Preferisco scope chiari, commit leggibili, documentazione essenziale e controlli
+automatici prima della consegna. Non considero “production-ready” un progetto
+finché autenticazione, permessi, casi d’errore e deployment non sono stati testati
+nell’ambiente reale.
+
+## Tecnologie
+
+TypeScript · React · Next.js · Supabase · PostgreSQL · Java · Rust · Python · Git
+
+## Contatti
+
+Per una collaborazione puoi usare i contatti pubblici del mio profilo GitHub o
+aprire una discussione nel repository più pertinente.
