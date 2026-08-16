@@ -49,11 +49,11 @@
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/JakeKing0001/boardverse">
-        <img src="./assets/boardverse-preview.png" alt="Boardverse chess platform" width="100%" />
+        <img src="https://raw.githubusercontent.com/JakeKing0001/boardverse/master/docs/boardverse-3d.jpg" alt="Boardverse immersive 3D chess arena" width="100%" />
       </a>
       <h3>Boardverse · Full-stack chess platform</h3>
-      <p>Gioco realtime, Stockfish, sfide, profili, amicizie, messaggi e statistiche con Auth, RLS e migrazioni versionate.</p>
-      <p><code>Next.js</code> <code>Supabase</code> <code>PostgreSQL</code> <code>Playwright</code></p>
+      <p>Arena di scacchi 2D/3D con visuale immersiva a schermo intero, realtime, Stockfish, sfide, profili e statistiche protette da Auth/RLS.</p>
+      <p><code>Next.js</code> <code>Three.js</code> <code>Supabase</code> <code>PostgreSQL</code> <code>Playwright</code></p>
       <p><a href="https://github.com/JakeKing0001/boardverse"><strong>Esplora Boardverse →</strong></a></p>
     </td>
     <td width="50%" valign="top">
