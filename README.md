@@ -99,4 +99,4 @@ casi d'errore e deployment non sono stati verificati nell'ambiente reale.
 
 Sono disponibile per **ruoli junior/full-stack**, collaborazioni e progetti
 freelance. Puoi contattarmi tramite i riferimenti pubblici del profilo oppure
-[aprire una richiesta di collaborazione](https://github.com/JakeKing0001/JakeKing0001/issues/new?title=Richiesta%20di%20collaborazione).
+[aprire una richiesta di collaborazione](https://github.com/JakeKing0001/JakeKing0001/issues/new?template=collaboration.yml).

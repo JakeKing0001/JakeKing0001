@@ -1,0 +1,70 @@
+name: Richiesta di collaborazione
+description: Raccontami il progetto, il risultato atteso e le tempistiche.
+title: "[Collaborazione] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Grazie per l'interesse. Questo modulo crea una richiesta pubblica: non inserire password, chiavi, dati personali o informazioni riservate. Per i dettagli sensibili useremo in seguito un canale privato.
+
+  - type: dropdown
+    id: project_type
+    attributes:
+      label: Tipo di progetto
+      options:
+        - Sito o landing page
+        - Dashboard o gestionale
+        - Web app o MVP
+        - Portale cliente o prenotazioni
+        - Miglioramento di un progetto esistente
+        - Altro progetto software
+    validations:
+      required: true
+
+  - type: textarea
+    id: goal
+    attributes:
+      label: Obiettivo
+      description: Quale problema vuoi risolvere e quale risultato vorresti ottenere?
+      placeholder: Vorrei realizzare...
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Funzioni e contesto
+      description: Elenca le funzioni principali, gli utenti previsti e gli strumenti già esistenti.
+      placeholder: Gli utenti dovranno poter...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: timeline
+    attributes:
+      label: Tempistiche indicative
+      options:
+        - Da definire insieme
+        - Entro 2 settimane
+        - Da 2 a 4 settimane
+        - Da 1 a 3 mesi
+        - Oltre 3 mesi
+    validations:
+      required: true
+
+  - type: textarea
+    id: success
+    attributes:
+      label: Come misureremo il successo?
+      description: Un breve criterio concreto aiuta a definire bene lo scope.
+      placeholder: Il progetto sarà riuscito quando...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: Confermo di non aver inserito dati sensibili o riservati in questa richiesta pubblica.
+          required: true
