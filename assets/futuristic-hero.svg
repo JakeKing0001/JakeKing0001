@@ -1,66 +1,115 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620" role="img" aria-label="JakeKing0001 futuristic developer profile banner">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760" role="img" aria-label="JakeKing0001 advanced futuristic developer HUD">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#030712"/>
-      <stop offset="0.48" stop-color="#07111f"/>
-      <stop offset="1" stop-color="#0b0614"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset="0.48" stop-color="#04101d"/>
+      <stop offset="1" stop-color="#0b0615"/>
     </linearGradient>
-    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#00f5d4"/>
-      <stop offset="0.52" stop-color="#42a5ff"/>
-      <stop offset="1" stop-color="#a855f7"/>
+    <linearGradient id="neon" x1="130" y1="0" x2="1360" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2DD4BF"/>
+      <stop offset="0.48" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#A78BFA"/>
     </linearGradient>
-    <radialGradient id="orb" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#00f5d4" stop-opacity=".65"/>
-      <stop offset=".42" stop-color="#1d4ed8" stop-opacity=".22"/>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ECFEFF"/>
+      <stop offset="0.08" stop-color="#67E8F9"/>
+      <stop offset="0.26" stop-color="#22D3EE" stop-opacity="0.75"/>
+      <stop offset="0.58" stop-color="#2563EB" stop-opacity="0.18"/>
       <stop offset="1" stop-color="#020617" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
-      <path d="M48 0H0V48" fill="none" stroke="#38bdf8" stroke-opacity=".08" stroke-width="1"/>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#0EA5E9" stop-opacity="0.34"/>
+      <stop offset="0.55" stop-color="#14B8A6" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#38BDF8" stroke-opacity="0.055" stroke-width="1"/>
     </pattern>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="7" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 1H1600" stroke="#E2E8F0" stroke-opacity="0.016"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
 
-  <rect width="1600" height="620" rx="34" fill="url(#bg)"/>
-  <rect width="1600" height="620" rx="34" fill="url(#grid)"/>
-  <circle cx="1280" cy="304" r="300" fill="url(#orb)"/>
-  <circle cx="1280" cy="304" r="154" fill="none" stroke="#00f5d4" stroke-opacity=".22" stroke-width="2"/>
-  <circle cx="1280" cy="304" r="114" fill="none" stroke="#60a5fa" stroke-opacity=".25" stroke-width="2" stroke-dasharray="9 13"/>
-  <circle cx="1280" cy="304" r="74" fill="none" stroke="#a855f7" stroke-opacity=".38" stroke-width="2"/>
-  <circle cx="1280" cy="304" r="20" fill="#00f5d4" opacity=".8" filter="url(#glow)"/>
+  <rect width="1600" height="760" rx="34" fill="url(#bg)"/>
+  <rect width="1600" height="760" rx="34" fill="url(#grid)"/>
+  <rect width="1600" height="760" rx="34" fill="url(#scan)"/>
+  <rect x="22" y="22" width="1556" height="716" rx="26" fill="none" stroke="#1E293B" stroke-width="2"/>
+  <path d="M48 116H1552" stroke="url(#neon)" stroke-opacity="0.28"/>
+  <path d="M48 644H1552" stroke="url(#neon)" stroke-opacity="0.18"/>
 
-  <g opacity=".5" stroke="url(#neon)" fill="none" stroke-width="2">
-    <path d="M1010 116h154l28 28h116"/>
-    <path d="M980 492h124l40-40h174"/>
-    <path d="M1088 190h76l36 36h162"/>
-    <path d="M1034 386h100l34-34h206"/>
-  </g>
-  <g fill="#00f5d4" opacity=".9">
-    <circle cx="1010" cy="116" r="5"/><circle cx="1308" cy="144" r="5"/>
-    <circle cx="980" cy="492" r="5"/><circle cx="1318" cy="452" r="5"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <circle cx="72" cy="70" r="6" fill="#22C55E" filter="url(#glow)"/>
+    <text x="90" y="77" fill="#A5F3FC" font-size="16">PROFILE NODE // ACTIVE</text>
+    <text x="1275" y="77" fill="#475569" font-size="15">JAKEKING0001 :: V3/HUD</text>
   </g>
 
-  <rect x="72" y="70" width="720" height="36" rx="18" fill="#0f172a" stroke="#1e293b"/>
-  <circle cx="98" cy="88" r="6" fill="#22c55e"/>
-  <text x="118" y="95" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">SYSTEM://PROFILE ONLINE</text>
-
-  <text x="72" y="220" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="78" font-weight="800" letter-spacing="3">JAKEKING0001</text>
-  <rect x="72" y="246" width="650" height="5" rx="2.5" fill="url(#neon)" filter="url(#glow)"/>
-  <text x="72" y="320" fill="#67e8f9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="26" letter-spacing="2">COMPUTER ENGINEERING // AI // SOFTWARE SYSTEMS</text>
-  <text x="72" y="372" fill="#94a3b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24">Building local AI assistants, full-stack products and intelligent interfaces.</text>
-
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">
-    <rect x="72" y="438" width="196" height="48" rx="10" fill="#06131b" stroke="#00f5d4" stroke-opacity=".6"/>
-    <text x="96" y="469" fill="#5eead4">● JAKE ACTIVE</text>
-    <rect x="282" y="438" width="230" height="48" rx="10" fill="#07111f" stroke="#42a5ff" stroke-opacity=".6"/>
-    <text x="306" y="469" fill="#93c5fd">◇ FULL-STACK DEV</text>
-    <rect x="526" y="438" width="218" height="48" rx="10" fill="#0f0a18" stroke="#a855f7" stroke-opacity=".6"/>
-    <text x="550" y="469" fill="#d8b4fe">⌁ LOCAL AI LAB</text>
+  <g>
+    <text x="78" y="210" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" letter-spacing="3">IDENTITY // DAVIDE</text>
+    <text x="74" y="292" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="74" font-weight="850" letter-spacing="2">JAKEKING0001</text>
+    <rect x="78" y="316" width="610" height="5" rx="2.5" fill="url(#neon)" filter="url(#glow)"/>
+    <text x="78" y="378" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="24" letter-spacing="1.8">COMPUTER ENGINEERING // AI SYSTEMS</text>
+    <text x="78" y="426" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23">I build intelligent tools, interfaces and local-first systems.</text>
+    <text x="78" y="460" fill="#64748B" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">Current core: Jake — personal AI assistant for Windows.</text>
   </g>
 
-  <text x="72" y="554" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">BUILD • TEST • ITERATE • DEPLOY</text>
-  <text x="1452" y="558" fill="#334155" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">v2.0</text>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+    <rect x="78" y="512" width="214" height="54" rx="10" fill="#05201F" stroke="#2DD4BF" stroke-opacity="0.58"/>
+    <text x="98" y="534" fill="#5EEAD4" font-size="12">PRIMARY CORE</text>
+    <text x="98" y="554" fill="#F0FDFA" font-size="17">JAKE // ONLINE</text>
+
+    <rect x="308" y="512" width="214" height="54" rx="10" fill="#071827" stroke="#38BDF8" stroke-opacity="0.58"/>
+    <text x="328" y="534" fill="#7DD3FC" font-size="12">SYSTEM MODE</text>
+    <text x="328" y="554" fill="#EFF6FF" font-size="17">LOCAL-FIRST</text>
+
+    <rect x="538" y="512" width="214" height="54" rx="10" fill="#120B20" stroke="#A78BFA" stroke-opacity="0.58"/>
+    <text x="558" y="534" fill="#C4B5FD" font-size="12">BUILD VECTOR</text>
+    <text x="558" y="554" fill="#FAF5FF" font-size="17">AI + SOFTWARE</text>
+  </g>
+
+  <g transform="translate(970 118)">
+    <circle cx="272" cy="252" r="238" fill="url(#halo)"/>
+    <circle cx="272" cy="252" r="182" fill="#04101B" stroke="#0EA5E9" stroke-opacity="0.22" stroke-width="2"/>
+    <circle cx="272" cy="252" r="144" fill="none" stroke="#22D3EE" stroke-opacity="0.30" stroke-width="2" stroke-dasharray="7 11">
+      <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 272 252" to="360 272 252" dur="28s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="272" cy="252" r="108" fill="none" stroke="#A78BFA" stroke-opacity="0.48" stroke-width="2" stroke-dasharray="3 9">
+      <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="360 272 252" to="0 272 252" dur="19s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="272" cy="252" r="74" fill="url(#core)" opacity="0.94">
+      <animate attributeName="opacity" values="0.72;1;0.72" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="272" cy="252" r="18" fill="#ECFEFF" filter="url(#glow)"/>
+
+    <g stroke="#38BDF8" stroke-opacity="0.28" fill="none">
+      <path d="M272 70v78"/><path d="M272 356v78"/><path d="M90 252h78"/><path d="M376 252h78"/>
+      <path d="M143 123l54 54"/><path d="M347 327l54 54"/><path d="M143 381l54-54"/><path d="M347 177l54-54"/>
+    </g>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">
+      <rect x="196" y="12" width="152" height="34" rx="8" fill="#06131B" stroke="#2DD4BF" stroke-opacity="0.35"/>
+      <text x="220" y="34" fill="#5EEAD4">VOICE / STT</text>
+      <rect x="391" y="87" width="140" height="34" rx="8" fill="#071827" stroke="#38BDF8" stroke-opacity="0.35"/>
+      <text x="416" y="109" fill="#7DD3FC">MEMORY</text>
+      <rect x="399" y="386" width="132" height="34" rx="8" fill="#100C1B" stroke="#A78BFA" stroke-opacity="0.38"/>
+      <text x="422" y="408" fill="#C4B5FD">AGENTS</text>
+      <rect x="4" y="386" width="140" height="34" rx="8" fill="#071827" stroke="#38BDF8" stroke-opacity="0.35"/>
+      <text x="33" y="408" fill="#7DD3FC">TOOLS</text>
+      <rect x="12" y="87" width="140" height="34" rx="8" fill="#06131B" stroke="#2DD4BF" stroke-opacity="0.35"/>
+      <text x="34" y="109" fill="#5EEAD4">REASONING</text>
+    </g>
+
+    <text x="206" y="247" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" letter-spacing="2">JAKE CORE</text>
+    <text x="201" y="274" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">AGENT MATRIX ACTIVE</text>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="78" y="692" fill="#475569" font-size="15">BUILD // VERIFY // ITERATE // SHIP</text>
+    <text x="620" y="692" fill="#334155" font-size="14">SIGNAL: STABLE</text>
+    <text x="782" y="692" fill="#334155" font-size="14">ENV: WINDOWS + LINUX</text>
+    <text x="1038" y="692" fill="#334155" font-size="14">FOCUS: AGENTS / FULL-STACK / HCI</text>
+  </g>
 </svg>
